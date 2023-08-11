@@ -1,0 +1,10 @@
+caliper:
+  blockchain: fabric
+  sut: fabric-network
+  network:
+    # Network configuration
+  clients:
+    # Client configuration
+  benchmark:
+    # Benchmark configuration
+

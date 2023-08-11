@@ -1,0 +1,17 @@
+{
+  "name": "caliper-benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.0",
+    "fabric-ca-client": "^2.2.3",
+    "fabric-network": "^2.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

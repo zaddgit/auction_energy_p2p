@@ -1,0 +1,33 @@
+name: Caliper Benchmarks
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+
+channels:
+  # channelName of mychannel matches the name of the channel created by test network
+  - channelName: mychannel
+    # the chaincodeIDs of all the fabric chaincodes in caliper-benchmarks
+    contracts:
+    - id: fabcar
+    - id: fixed-asset
+    - id: marbles
+    - id: simple
+    - id: smallbank
+
+organizations:
+  - mspid: Org1MSP
+    # Identities come from cryptogen created material for test-network
+    identities:
+      certificates:
+      - name: 'User1'
+        clientPrivateKey:
+          path: '/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/
+fabric-v1.4.3_energy_trading/msp/79a9230139b7c29cc31a79724b8a4affba0e88ac0a550a313c35209453c5ec67_sk'
+        clientSignedCert:
+          path: '/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/
+fabric-v1.4.3_energy_trading/msp/cert.pem'
+    connectionProfile:
+      path: '/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/fabr
+ic-v1.4.3_energy_trading/msp/connection-org1.yaml'
+      discover: true

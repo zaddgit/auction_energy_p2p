@@ -34,8 +34,8 @@ function padLeadingZeros(num, size) {
 
 module.exports.run = function() {
 
-	let numberOfSeller = 1000;
-	let numberOfBuyer = 1000;
+	let numberOfSeller = 3;
+	let numberOfBuyer = 3;
 	var minQuantity = 0.1, maxQuantity = 5;
 	var minPriceB = 14, maxPriceB = 22;
 	var userInfoArr = [];
@@ -63,7 +63,7 @@ module.exports.run = function() {
 		content += `	x = xmaxUser${idNumber}\n`;
 		content += 'print(str(x))\n';
 		content += 'sys.stdout.flush()\n';
-		fs.writeFile(`//home//doanthanhhien//Documents//energy-trading-project//multiple-end-user//user${idNumber}.py`, content, function (err) {
+		fs.writeFile(`//home//moonzad//go//src//github.com//zaddgit//user${idNumber}.py`, content, function (err) {
 		  if (err) throw err;
 		  // console.log('File is created successfully.');
 		});
@@ -101,7 +101,7 @@ module.exports.run = function() {
 		content += `	x = xmaxUser${idNumber}\n`;
 		content += 'print(str(x))\n';
 		content += 'sys.stdout.flush()\n';
-		fs.writeFile(`//home//doanthanhhien//Documents//energy-trading-project//multiple-end-user//user${idNumber}.py`, content, function (err) {
+		fs.writeFile(`//home//moonzad//go//src//github.com//zaddgit//user${idNumber}.py`, content, function (err) {
 		  if (err) throw err;
 		  // console.log('File is created successfully.');
 		}); 

@@ -1,0 +1,83 @@
+2023.07.22-17:58:38.507[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.07.22-17:58:38.655[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:2.2"
+2023.07.22-17:58:38.659[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.07.22-17:58:38.660[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2023.07.22-17:58:38.660[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.07.22-17:58:38.661[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2023.07.22-17:59:05.453[32m info [39m [caliper] [cli-launch-manager] 	Set workspace path: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.07.22-17:59:05.454[32m info [39m [caliper] [cli-launch-manager] 	Set benchmark configuration path: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/fabric-v1.4.3_energy_trading/caliper_config.yaml
+2023.07.22-17:59:05.454[32m info [39m [caliper] [cli-launch-manager] 	Set network configuration path: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/test-network.yaml
+2023.07.22-17:59:05.455[32m info [39m [caliper] [cli-launch-manager] 	Set SUT type: fabric
+2023.07.22-17:59:05.484[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2023.07.22-17:59:05.484[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2023.07.22-17:59:06.289[32m info [39m [caliper] [fabric-connector] 	Initializing gateway connector compatible with installed SDK: 2.2.12
+2023.07.22-18:14:43.017[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.07.22-18:14:43.418[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:2.2"
+2023.07.22-18:14:43.429[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.07.22-18:14:43.432[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2023.07.22-18:14:43.434[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.07.22-18:14:43.436[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2023.07.22-18:14:52.531[32m info [39m [caliper] [cli-launch-manager] 	Set workspace path: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.07.22-18:14:52.533[32m info [39m [caliper] [cli-launch-manager] 	Set benchmark configuration path: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/fabric-v1.4.3_energy_trading/caliper_config.yaml
+2023.07.22-18:14:52.534[32m info [39m [caliper] [cli-launch-manager] 	Set network configuration path: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks/networks/fabric/test-network.yaml
+2023.07.22-18:14:52.535[32m info [39m [caliper] [cli-launch-manager] 	Set SUT type: fabric
+2023.07.22-18:14:52.618[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2023.07.22-18:14:52.619[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2023.07.22-18:14:53.697[32m info [39m [caliper] [fabric-connector] 	Initializing gateway connector compatible with installed SDK: 2.2.12
+2023.07.22-18:14:53.723[32m info [39m [caliper] [IdentityManager] 	Adding User1 (admin=false) as User1 for organization Org1MSP
+2023.08.11-17:05:58.589[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-17:05:58.705[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-17:05:58.708[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-17:05:58.708[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-17:05:58.708[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-17:05:58.709[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-17:07:41.102[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-17:12:59.876[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-17:13:00.002[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-17:13:00.006[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-17:13:00.007[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-17:13:00.007[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-17:13:00.008[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-17:15:14.327[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-17:30:06.268[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-17:30:06.441[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-17:30:06.444[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-17:30:06.444[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-17:30:06.445[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-17:30:06.445[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-17:31:47.133[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-17:37:16.053[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-17:37:16.176[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-17:37:16.181[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-17:37:16.182[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-17:37:16.183[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-17:37:16.183[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-17:39:15.200[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-17:59:01.851[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-17:59:01.970[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-17:59:01.973[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-17:59:01.973[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-17:59:01.973[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-17:59:01.974[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-18:00:36.868[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-18:02:57.956[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-18:02:58.067[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-18:02:58.070[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-18:02:58.070[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-18:02:58.070[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-18:02:58.071[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-18:04:38.848[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-18:22:17.465[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-18:22:17.616[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-18:22:17.619[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-18:22:17.619[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-18:22:17.620[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-18:22:17.620[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-18:22:33.854[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2023.08.11-18:24:48.891[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2023.08.11-18:24:49.010[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:1.4"
+2023.08.11-18:24:49.012[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks"
+2023.08.11-18:24:49.013[32m info [39m [caliper] [bind] 	Binding for fabric@1.4. This might take some time...
+2023.08.11-18:24:49.013[32m info [39m [caliper] [bind] 	Using working directory: /home/moonzad/go/src/github.com/zaddgit/A-Double-Auction-Based-Game-Theoretic-Approach/caliper-benchmarks
+2023.08.11-18:24:49.013[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-client@1.4.14 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.14
+2023.08.11-18:25:07.251[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.

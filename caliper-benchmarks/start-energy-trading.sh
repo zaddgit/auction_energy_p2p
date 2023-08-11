@@ -20,6 +20,7 @@ sudo npx caliper launch manager \
 --caliper-workspace ${PWD} \
 --caliper-benchconfig ${PWD}/benchmarks/scenario/energy_trading/${BENCHCONFIG} \
 --caliper-networkconfig ${PWD}/${NETWORK} \
+--caliper-bind-sut fabric:1.4 \
 --caliper-logging-targets-console-options-level error \
 --caliper-logging-targets-file-options-level error \
 # --caliper-fabric-gateway-usegateway \

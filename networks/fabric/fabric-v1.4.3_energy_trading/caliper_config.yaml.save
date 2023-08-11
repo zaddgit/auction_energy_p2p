@@ -1,0 +1,30 @@
+caliper:
+  blockchain: fabric
+  sut: fabric-network
+  network:
+    # Network configuration
+    # Specify the necessary details for your Hyperledger Fabric network, such as peers, orderers, channels, organizations, etc.
+    # For example:
+    - organization: Org1
+      connectionProfile: ./path/to/connection-profile.yaml
+      # Specify other network details as required
+
+  clients:
+    # Client configuration
+    # Specify the necessary details for your Caliper clients, such as the number of clients, client names, client type, etc.
+    # For example:
+    - name: Client1
+      clientType: fabric
+      organization: Org1
+      # Specify other client details as required
+
+  benchmark:
+    # Benchmark configuration
+    # Specify the necessary details for your benchmark, such as workload, round duration, number of rounds, etc.
+    # For example:
+    - name: MyBenchmark
+      description: "Benchmark description"
+      roundDuration: 30
+      # Specify other benchmark details as required
+
+
